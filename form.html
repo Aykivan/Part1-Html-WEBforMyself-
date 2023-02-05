@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <h1>Формы</h1>
+    <form action="#" method="POST">
+        <p><label>Введите имя: <input title="используется значение text" type="text" required></label></p>
+        <p><label>Введите пароль: <input title="используется значение password" type="password"></label></p>
+        <p><input type="email" placeholder="Введите email"></p>
+        <p><input type="text" readonly value="Поле для чтения"></p>
+        <p>
+            <label><input title="Используется значение submit" type="submit" value="Кнопка value"></label>
+            <label><input type="reset"></label>
+        </p>
+    </form>
+    <p>
+        В теге form прописывается атрибут script, он отвечает за адресс отправки заполненных строк.
+        <br>
+        Атрибут - method со значением GET позволяет видеть передаваемые данные, значение POST - не видеть
+        <br>
+        С помощью атрибута placeholder - можем задать подсказку прямо в поле ввода
+        <br>
+        С помощью атрибута required - можно сделать поля обязательным для заполниния
+        <br>
+        Атрибут readonly - делает поле невозможным для редактирования
+    </p>
+</body>
+
+</html>
