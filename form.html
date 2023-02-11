@@ -10,6 +10,8 @@
 
 <body>
     <h1>Формы</h1>
+        <h3><a href="index.html">Главная</a></h3>
+        <h3>Урок 9</h3>
     <form action="#" method="POST">
         <p><label>Введите имя: <input title="используется значение text" type="text" required></label></p>
         <p><label>Введите пароль: <input title="используется значение password" type="password"></label></p>
@@ -19,7 +21,32 @@
             <label><input title="Используется значение submit" type="submit" value="Кнопка value"></label>
             <label><input type="reset"></label>
         </p>
+        <h3>Урок 10</h3>
+        <p>
+            <label><input type="radio" name="radioCity" checked> Москва</label><br>
+            <label><input type="radio" name="radioCity"> Кемеров</label><br>
+            <label><input type="radio" name="radioCity"> Томск</label><br>
+            <label><input type="radio" name="radioCity"> Новосибирск</label><br>
+        </p>
+        <p>
+            <lebel><input type="checkbox">Apple</lebel>
+            <lebel><input type="checkbox">Sumsung</lebel>
+            <lebel><input type="checkbox">Honor</lebel>
+        </p>
+        <p>
+            <select name="" id="" multiple>
+                <option>Москва</option>
+                <option>Кем</option>
+                <option>Юрга</option>
+                <option>Томск</option>
+            </select>
+        </p>
+        <p><textarea name="" id="" cols="50" rows="5" placeholder="textarea"></textarea></p>
+        <p><input type="file" name="ing" title="type file"></p><br>
+        <p><input type="range" title="range"></p>
+        <p><input type="date" name="" id=""></p>
     </form>
+
     <p>
         В теге form прописывается атрибут script, он отвечает за адресс отправки заполненных строк.
         <br>
@@ -30,6 +57,17 @@
         С помощью атрибута required - можно сделать поля обязательным для заполниния
         <br>
         Атрибут readonly - делает поле невозможным для редактирования
+        <br>
+        <strong>type = "radio"</strong>
+        <br>
+        Радио кнопки, позволяют сдела графу с выбором элементов в виде точек, чтобы иметь возможность
+        выбрать только одну кнопку, необходимо прописать каждому элементы одинаковое имя.
+        <br>
+        Атрибут checked - задает определенное значение выбранным по умолчанию
+        <br>
+        type="checkbox" - можно сделать несколько вариантов ответов
+        <br>
+        select multiple - позволяет через shift выбрать несколько значений
     </p>
 </body>
 
